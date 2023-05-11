@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+.column {
+    width: 100%;
+    margin: 10%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+      margin: 30%;
+    }
+  }
+
+
+
+body {
+    background: #B57EDC;
+    font-family: 'Darumadrop One', cursive;
+}
+
+.container{
+    width: 1200px;
+    background: #FFD1DC;
+    margin: 10 px auto;
+}
+
+.superior{
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+    
+}
+
+#fotologo {
+    margin-left: 15%;
+}
+.menu{ 
+    float: left;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#datos{
+    padding: 5%;
+    color:purple;
+    font-size: large;
+    text-align: center;
+
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7.8%; 
+    margin-right: 7.8%;
+}
+
+h3.new {font-family: new times roman;}
+
+h3.posit {letter-spacing: 4px;}
+
+h2.posit {letter-spacing: 4px;}
+
+h2 { color: black;}
+
+h3 { color: black;}
+
+.titulo {
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.041);
+}
+ 
+h1 {color: rgba(0, 0, 0, 0.801);}
+
+.listado {
+    display: flex;
+    flex-direction: row;
+}
+.ACTIVIDADES {
+    border: 1px solid black;
+    width: 30%;
+    margin: 1rem;
+}
+
+.ACTIVIDADES img {
+    width: 100%;
+}
+
+.foto{
+    margin-bottom: 1rem;
+}
+
+a:link {
+    color: black;  
+}
+
+.descripcion {
+    margin: 1rem;
+}
+
+.botones {
+    margin-bottom: 1rem;
+}
+
+.linkVerde {
+    background-color: rgb(100, 251, 6);
+    padding: .3rem .6rem;
+    border-radius: 5px ;
+    font-weight: 400;
+   font-size: 1rem;
+}
+
+.linkAmarillo {
+    background-color: rgb(254, 193, 6);
+    padding: .3rem .6rem;
+    border-radius: 5px ;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.ACTIVIDADES .titulo {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.texto {
+    font-size: .9rem;
+    line-height: 1.4rem;
+    padding: 5%;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+}
+
+.textoChico {
+    font-size: .9rem;
+    color: gray;
+    line-height: 1.3rem;
+    
+}
+
+#formulario{
+   margin-right: 30%;
+   margin-left: -1%;
+}
+
+<a href="http://google.com" class="btn btn-default">Go to Google</a>
+
+.pie{
+    overflow: hidden;
+    margin-right: 1rem;
+}
+
+.izquierda{
+    float: left;
+    width: 550px;
+    padding: 25px;
+}
+
+.derecha{
+    float: right;
+    width: 300px;
+    padding: 30px;
+}
+
+
